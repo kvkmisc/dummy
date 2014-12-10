@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frame"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <RelativeLayout 
+        android:id="@+id/swipe"
+        android:layout_width="wrap_content"
+   	    android:layout_height="150dip"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp" 
+        android:layout_gravity="center">
+    		
+            <TextView
+                android:id="@+id/swipe_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="@string/swipe"
+                android:textSize="35sp" />
+
+            <ImageView
+                android:id="@+id/slide_arraow"
+                android:layout_width="50dp"
+                android:layout_height="40dip"
+                android:layout_marginLeft="15dp"
+                android:layout_alignBottom="@+id/swipe_text"
+                android:layout_toRightOf="@+id/swipe_text"
+                android:contentDescription="@string/animation_desc"
+                android:scaleType="centerCrop"
+                android:src="@drawable/swipe_arrow1" />
+	
+    </RelativeLayout>
+    
+    <ImageView
+        android:id="@+id/animation_frame"
+        android:layout_width="150dp"
+        android:layout_height="150dip"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/animation_desc"
+        android:scaleType="centerCrop" />
+    
+	<RelativeLayout 
+        android:id="@+id/tap"
+        android:layout_width="match_parent"
+   	    android:layout_height="150dip"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp" >
+        
+        <TextView
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:layout_marginTop="20dp"
+    		android:text="@string/dhvani"
+    		android:gravity="center"
+    		android:textSize="35sp" />
+        	
+    </RelativeLayout>
+    
+</LinearLayout>

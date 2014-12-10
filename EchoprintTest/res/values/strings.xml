@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, EchoprintTestActivity!</string>
+    <string name="app_name">Dhvani</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+	<string name="action_search">Search</string>
+	<string name="search_hint">Hint</string>
+	<string name="tab_search">Search</string>
+    <string name="tab_playlist">Play List</string>
+    <string name="tab_news">Trending</string>
+    <string name="tab_aboutus">About Us</string>
+    <string name="tab_recomendations">Recommendations</string>
+    <string name="animation_desc">Search Animation</string>
+    <string name="swipe">Swipe to Play</string>
+    <string name="loading">Waiting for sync...</string>
+    <string name="dhvani">Tap to Dhvani!</string>
+    <string name="aboutus">This is Dhvani!, song recognizition application based
+        on audio fingerprinting. This project has been developed as part of Cloud 
+        computing course at University of Florida.
+        \n\n\n\n
+        Special Thanks to Prof. Andy Li
+        \n\n\n\n
+        Team Members:-\n\n
+        Divya Chaganti\n
+        Vamshi Krishna Kandula\n
+        Manipal Reddy\n
+        Sri Krishna\n
+        Goutham Pingali</string>
+</resources>

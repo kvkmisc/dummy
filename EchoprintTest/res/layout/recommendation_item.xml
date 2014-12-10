@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="30dip" >
+
+
+    
+	<!-- Title Of Song-->
+    <TextView
+        android:id="@+id/recotitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rihanna Love the way lie"
+        android:textColor="#040404"
+        android:typeface="sans" 
+        android:textSize="20dip"
+        android:textStyle="bold"/>
+
+	<!-- Artist Name -->
+    <TextView
+        android:id="@+id/recoartist"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/recotitle"
+        android:textColor="#343434"
+        android:textSize="15dip"
+        android:layout_marginTop="1dip" 
+        android:text="Just gona stand there and ..." />
+    
+    <RatingBar
+         android:id="@+id/ratingBar1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentTop="true"
+         android:layout_alignRight="@+id/recoartist" />
+
+	<!-- Rightend Duration -->
+    <TextView
+        android:id="@+id/recoduration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/title"
+        android:gravity="right"
+        android:text="5:45"
+        android:layout_marginRight="5dip"
+        android:textSize="10dip"
+        android:textColor="#10bcc9"
+        android:textStyle="bold"/>
+
+
+
+
+</RelativeLayout>
